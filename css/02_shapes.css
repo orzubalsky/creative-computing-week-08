@@ -37,19 +37,26 @@ a {
 
 .shape {
   margin: 30px;
-  width: 200px;  
+  width: 200px;
   height: 200px;
   background: navy;
 }
 
 .rectangle {
-
+  width: 300px;
+  height: 100px;
 }
 
 .circle {
-
+  border-radius: 100px;
 }
 
 .triangle {
-
+  border-top: 50px solid red;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid transparent;
+  height: 0;
+  width: 0;
+  background: transparent;
 }
